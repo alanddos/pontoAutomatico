@@ -1,0 +1,29 @@
+{
+  "name": "autoPonto",
+  "version": "7.1.1",
+  "description": "Automação para bater ponto em Node.js",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "exit 0",
+    "start": "node index.js"
+  },
+  "author": "Alan Gonçalves <alanddos@gmail.com>",
+  "repository": "alanddos/pontoAutomatico",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8"
+  },
+  "dependencies": {
+    "date-fns": "^2.25.0",
+    "fs-extra": "^5.0.0",
+    "lodash": "^4.17.10"
+    
+  },
+  "devDependencies": {
+    "eslint": "^4.19.1",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-import": "^2.9.0",
+    "puppeteer": "^10.0.0"
+  }
+}
