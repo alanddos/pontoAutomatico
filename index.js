@@ -15,8 +15,8 @@ const { StartAuto, ChecarTime } = require('./autoBot'); // eslint-disable-line i
     const options = {
       registersDbPath: './registers.json',
       loginUrl: 'https://app.pontomaisweb.com.br/#/acessar',
-      username: '',
-      password: '',      
+      username: '020.232.201-73',
+      password: 'adb231165',      
     };
 
     const page = await StartAuto(browser, options);
