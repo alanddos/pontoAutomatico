@@ -421,20 +421,10 @@
     "pinkie-promise" "^2.0.0"
     "rimraf" "^2.2.8"
 
-"detect-indent@~6.0.0":
-  "integrity" "sha512-oSyFlqaTHCItVRGK5RmrmjB+CmaMOW7IaNA/kdxqhoa6d17j/5ce9O9eWXmV/KEdRwqpQA+Vqe8a8Bsybu4YnA=="
-  "resolved" "https://registry.npmjs.org/detect-indent/-/detect-indent-6.0.0.tgz"
-  "version" "6.0.0"
-
 "devtools-protocol@0.0.883894":
   "integrity" "sha512-33idhm54QJzf3Q7QofMgCvIVSd2o9H3kQPWaKT/fhoZh+digc+WSiMhbkeG3iN79WY4Hwr9G05NpbhEVrsOYAg=="
   "resolved" "https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.883894.tgz"
   "version" "0.0.883894"
-
-"docopt@~0.6.2":
-  "integrity" "sha1-so6eIiDaXsSffqW7JKR3h0Be6xE="
-  "resolved" "https://registry.npmjs.org/docopt/-/docopt-0.6.2.tgz"
-  "version" "0.6.2"
 
 "doctrine@^2.1.0":
   "integrity" "sha512-35mSku4ZXK0vfCuHEDAwt55dg2jNajHZ1odvF+8SSr82EsZY4QmXfuWso8oEd8zRhVObSN18aM0CjSdoBX7zIw=="
@@ -451,14 +441,10 @@
     "esutils" "^2.0.2"
     "isarray" "^1.0.0"
 
-"dot-json@^1.2.0":
-  "integrity" "sha512-4bEM7KHFl/U9gAI5nIvU0/fwVzNnE713K339vcxAMtxd2D9mZP6o65UwlcXigJL4rfk90UM0J+D7IPIFYZMQ8Q=="
-  "resolved" "https://registry.npmjs.org/dot-json/-/dot-json-1.2.0.tgz"
-  "version" "1.2.0"
-  dependencies:
-    "detect-indent" "~6.0.0"
-    "docopt" "~0.6.2"
-    "underscore-keypath" "~0.0.22"
+"dotenv@^10.0.0":
+  "integrity" "sha512-rlBi9d8jpv9Sf1klPjNfFAuWDjKLwTIJJ/VxtoTwIR6hnZxcEOQCZg2oIL3MWBYw5GpUDKOEnND7LXTbIpQ03Q=="
+  "resolved" "https://registry.npmjs.org/dotenv/-/dotenv-10.0.0.tgz"
+  "version" "10.0.0"
 
 "emoji-regex@^9.2.2":
   "integrity" "sha512-L18DaJsXSUk2+42pv8mLs5jJT2hqFkFE4j21wOmgbUqsZ2hL72NsUU785g9RXgo3s0ZNgVl42TiHp3ZtOv/Vyg=="
@@ -996,15 +982,6 @@
     "strip-ansi" "^4.0.0"
     "through" "^2.3.6"
 
-"instauto@^7.1.1":
-  "integrity" "sha512-XGQYhTHeLpV1n6W6KEV3Gb+XkZKoPANcXXU1ATpJsOncASuw6yweQRIa5jyW1P3mJXvftVR5n8HHNODYewCbBw=="
-  "resolved" "https://registry.npmjs.org/instauto/-/instauto-7.1.1.tgz"
-  "version" "7.1.1"
-  dependencies:
-    "fs-extra" "^5.0.0"
-    "lodash" "^4.17.10"
-    "user-agents" "^1.0.559"
-
 "internal-slot@^1.0.3":
   "integrity" "sha512-O0DB1JC/sPyZl7cIo78n5dR7eUSwwpYPiXRhTzNxZVAMUuB8vlnRFyLxdrVToks6XPLVnFfbzaVd5WLjhgg+vA=="
   "resolved" "https://registry.npmjs.org/internal-slot/-/internal-slot-1.0.3.tgz"
@@ -1232,11 +1209,6 @@
   "version" "5.0.0"
   dependencies:
     "p-locate" "^4.1.0"
-
-"lodash.clonedeep@^4.5.0":
-  "integrity" "sha1-4j8/nE+Pvd6HJSnBBxhXoIblzO8="
-  "resolved" "https://registry.npmjs.org/lodash.clonedeep/-/lodash.clonedeep-4.5.0.tgz"
-  "version" "4.5.0"
 
 "lodash@^4.17.10", "lodash@^4.17.4", "lodash@^4.3.0":
   "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
@@ -1985,30 +1957,10 @@
     "buffer" "^5.2.1"
     "through" "^2.3.8"
 
-"underscore-keypath@~0.0.22":
-  "integrity" "sha1-SKUoOSu278QkvhyqVtpLX6zPJk0="
-  "resolved" "https://registry.npmjs.org/underscore-keypath/-/underscore-keypath-0.0.22.tgz"
-  "version" "0.0.22"
-  dependencies:
-    "underscore" "*"
-
-"underscore@*":
-  "integrity" "sha512-hzSoAVtJF+3ZtiFX0VgfFPHEDRm7Y/QPjGyNo4TVdnDTdft3tr8hEkD25a1jC+TjTuE7tkHGKkhwCgs9dgBB2g=="
-  "resolved" "https://registry.npmjs.org/underscore/-/underscore-1.13.1.tgz"
-  "version" "1.13.1"
-
 "universalify@^0.1.0":
   "integrity" "sha1-+nG63UQ3r0wUiEHjs7Fl+enlkLc="
   "resolved" "https://registry.npmjs.org/universalify/-/universalify-0.1.1.tgz"
   "version" "0.1.1"
-
-"user-agents@^1.0.559":
-  "integrity" "sha512-HdAlNS3vDxOGMRwmv8or05xL96MV3CEwQhUSFTCRoOvTOEnWhTEBPAHRry/xZpVTTOtx77UHMal8YKcx6fs7Lg=="
-  "resolved" "https://registry.npmjs.org/user-agents/-/user-agents-1.0.559.tgz"
-  "version" "1.0.559"
-  dependencies:
-    "dot-json" "^1.2.0"
-    "lodash.clonedeep" "^4.5.0"
 
 "util-deprecate@^1.0.1", "util-deprecate@~1.0.1":
   "integrity" "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
