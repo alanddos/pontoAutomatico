@@ -22,8 +22,6 @@ PONTO_LATITUDE= -22.256466200833817
 PONTO_LONGITUDE= -54.80682928776344
 ```
 
-- Configure `autoBot.js the location to use`
-
 - Run `npm run start`
 
 Made with ❤️
